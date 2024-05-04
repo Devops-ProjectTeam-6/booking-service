@@ -37,9 +37,9 @@ spring:
     name: BOOKING-SERVICE
 
   datasource:
-    url: jdbc:mysql://localhost:3306/myroom
-    username: root
-    password: pawankumar
+    url: jdbc:mysql://myroomawsdb.c3esb8f8pxjo.us-east-1.rds.amazonaws.com/myroom
+    username: admin
+    password: Devops898
 
   jpa:
     show-sql: true
