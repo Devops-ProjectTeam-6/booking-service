@@ -47,10 +47,10 @@ spring:
       ddl-auto: update
 
   kafka:
-    bootstrap-servers: localhost:9092
-    advertised:
-      host:
-        name: localhost
+  bootstrap-servers: ec2-34-234-196-243.compute-1.amazonaws.com:9092
+  advertised:
+    host:
+      name: 34.234.196.243
 
 # Eureka Configuration
 eureka:
